@@ -1,0 +1,47 @@
+# Data files (too large for GitHub)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (optional: keep figures, exclude checkpoints and docx)
+results/checkpoints/
+*.docx
+
+# Report folder (excluded per user request)
+report/
+
+# Temp files
+*.tmp
+*~
+*.log
+
+# Scripts with credentials
+sync_to_server.sh
+
+# Files containing sensitive info (server passwords)
+CLAUDE.md
+PROGRESS.md

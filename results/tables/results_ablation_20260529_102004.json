@@ -1,0 +1,50 @@
+{
+  "mspa_full": {
+    "model": "mspa_full",
+    "dataset": "cifar100",
+    "best_val_acc": 0.8884,
+    "test_top1_acc": 0.888,
+    "test_top5_acc": 0.9864,
+    "macro_f1": 0.887839,
+    "params_total": 28088710,
+    "params_trainable": 26853670,
+    "training_time_min": 69.77,
+    "training_history": []
+  },
+  "mspa_no_fa": {
+    "model": "mspa_no_fa",
+    "dataset": "cifar100",
+    "best_val_acc": 0.8812,
+    "test_top1_acc": 0.8872,
+    "test_top5_acc": 0.9868,
+    "macro_f1": 0.887326,
+    "params_total": 28086406,
+    "params_trainable": 26851366,
+    "training_time_min": 68.55,
+    "training_history": []
+  },
+  "mspa_no_ma": {
+    "model": "mspa_no_ma",
+    "dataset": "cifar100",
+    "best_val_acc": 0.8848,
+    "test_top1_acc": 0.8895,
+    "test_top5_acc": 0.9863,
+    "macro_f1": 0.889549,
+    "params_total": 27993094,
+    "params_trainable": 26758054,
+    "training_time_min": 67.42,
+    "training_history": []
+  },
+  "mspa_base": {
+    "model": "mspa_base",
+    "dataset": "cifar100",
+    "best_val_acc": 0.885,
+    "test_top1_acc": 0.8861,
+    "test_top5_acc": 0.9865,
+    "macro_f1": 0.886227,
+    "params_total": 27990790,
+    "params_trainable": 26755750,
+    "training_time_min": 66.23,
+    "training_history": []
+  }
+}
